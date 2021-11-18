@@ -27,7 +27,7 @@ executable gtfs2graph
     -threaded
     -with-rtsopts=-N
   build-depends:
-    base,
+    base < 4.10.0.0,
     bytestring,
     cassava,
     chorale >= 0.1.7,
